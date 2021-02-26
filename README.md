@@ -1,7 +1,7 @@
 Schematics for the ATD T512CLK-A1 derived from Rob Krenicki's board layout
 ==========================================================================
 
-There may be errors, however, I found none in Rob Krenicki's work. KiCad's ERC and DRC checks likely caught all important errors in my work.
+There may be errors. That said, I found none in Rob Krenicki's work. KiCad's ERC and DRC checks likely caught all important errors in my work.
 
 Do not produce the PCB layout from this KiCad project. Placing of standard KiCad parts onto the board has resulted in insufficient track spacing for production. If you wish to make a board, use Rob Krenicki's gerbers.
 
