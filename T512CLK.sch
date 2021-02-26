@@ -244,23 +244,23 @@ OSC
 $Comp
 L 74xx:74LS74 U32
 U 1 1 60407416
-P 1950 9550
-F 0 "U32" H 2150 9950 50  0000 C CNN
-F 1 "74LS74" H 2150 9850 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1950 9550 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 1950 9550 50  0001 C CNN
-	1    1950 9550
+P 1950 9450
+F 0 "U32" H 2150 9850 50  0000 C CNN
+F 1 "74LS74" H 2150 9750 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1950 9450 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 1950 9450 50  0001 C CNN
+	1    1950 9450
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS74 U32
 U 2 1 60409E10
-P 1950 10350
-F 0 "U32" H 2150 10750 50  0000 C CNN
-F 1 "74LS74" H 2150 10650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1950 10350 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 1950 10350 50  0001 C CNN
-	2    1950 10350
+P 1950 10250
+F 0 "U32" H 2150 10650 50  0000 C CNN
+F 1 "74LS74" H 2150 10550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1950 10250 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 1950 10250 50  0001 C CNN
+	2    1950 10250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -292,33 +292,33 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0115
 U 1 1 604183A5
-P 1950 9150
-F 0 "#PWR0115" H 1950 9000 50  0001 C CNN
-F 1 "VCC" H 1965 9323 50  0000 C CNN
-F 2 "" H 1950 9150 50  0001 C CNN
-F 3 "" H 1950 9150 50  0001 C CNN
-	1    1950 9150
+P 1950 9050
+F 0 "#PWR0115" H 1950 8900 50  0001 C CNN
+F 1 "VCC" H 1965 9223 50  0000 C CNN
+F 2 "" H 1950 9050 50  0001 C CNN
+F 3 "" H 1950 9050 50  0001 C CNN
+	1    1950 9050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 9250 1950 9200
+	1950 9150 1950 9100
 Wire Wire Line
-	1950 10050 1950 9950
+	1950 9950 1950 9850
 Wire Wire Line
-	1950 9200 1550 9200
+	1950 9100 1550 9100
 Wire Wire Line
-	1550 9200 1550 9950
-Connection ~ 1950 9200
+	1550 9100 1550 9850
+Connection ~ 1950 9100
 Wire Wire Line
-	1950 9200 1950 9150
+	1950 9100 1950 9050
 Wire Wire Line
-	1950 9950 1550 9950
+	1950 9850 1550 9850
 Wire Wire Line
-	1950 9850 1950 9950
-Text GLabel 1350 10250 0    50   Input ~ 0
+	1950 9750 1950 9850
+Text GLabel 1350 10150 0    50   Input ~ 0
 IOCHRDY
 Wire Wire Line
-	1650 10250 1350 10250
+	1650 10150 1350 10150
 $Comp
 L 74xx:74LS74 U32
 U 3 1 6040A8AA
@@ -330,17 +330,17 @@ F 3 "74xx/74hc_hct74.pdf" H 11400 14800 50  0001 C CNN
 	3    11400 14800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2250 9450
-NoConn ~ 2250 10250
+NoConn ~ 2250 9350
+NoConn ~ 2250 10150
 $Comp
 L 74xx:74LS00 U31
 U 1 1 6035F269
-P 3100 9200
-F 0 "U31" H 3100 9525 50  0000 C CNN
-F 1 "74LS00" H 3100 9434 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3100 9200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3100 9200 50  0001 C CNN
-	1    3100 9200
+P 3100 10250
+F 0 "U31" H 3100 10575 50  0000 C CNN
+F 1 "74LS00" H 3100 10484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3100 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3100 10250 50  0001 C CNN
+	1    3100 10250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -357,24 +357,24 @@ $EndComp
 $Comp
 L 74xx:74LS00 U31
 U 3 1 60363C46
-P 4800 9800
-F 0 "U31" H 4800 10125 50  0000 C CNN
-F 1 "74LS00" H 4800 10034 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 9800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4800 9800 50  0001 C CNN
-	3    4800 9800
+P 4800 9700
+F 0 "U31" H 4800 10025 50  0000 C CNN
+F 1 "74LS00" H 4800 9934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 9700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4800 9700 50  0001 C CNN
+	3    4800 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS00 U31
 U 4 1 603656E5
-P 3850 9900
-F 0 "U31" H 3850 10225 50  0000 C CNN
-F 1 "74LS00" H 3850 10134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3850 9900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3850 9900 50  0001 C CNN
-	4    3850 9900
-	1    0    0    -1  
+P 3900 9800
+F 0 "U31" H 3900 10125 50  0000 C CNN
+F 1 "74LS00" H 3900 10034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3900 9800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3900 9800 50  0001 C CNN
+	4    3900 9800
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR0116
@@ -398,11 +398,11 @@ F 3 "" H 12200 15300 50  0001 C CNN
 	1    12200 15300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 9100 0    50   Input ~ 0
+Text GLabel 2800 10150 0    50   Input ~ 0
 ~IOR
-Text GLabel 2800 9300 0    39   Input ~ 0
+Text GLabel 2800 10350 0    39   Input ~ 0
 ~MEMR
-Text GLabel 4500 9700 0    50   Input ~ 0
+Text GLabel 4500 9600 0    50   Input ~ 0
 IOCHRDY
 $Comp
 L 74xx:74LS258 U21
@@ -508,17 +508,17 @@ $EndComp
 Text GLabel 18750 5300 0    50   Input ~ 0
 A08
 Text GLabel 18750 5400 0    50   Input ~ 0
-A0_DRV
+A0_BUF
 Text GLabel 18750 5600 0    50   Input ~ 0
 A09
 Text GLabel 18750 5700 0    50   Input ~ 0
-A1_DRV
+A1_BUF
 Text GLabel 18750 6300 0    50   Input ~ 0
-A2_DRV
+A2_BUF
 Text GLabel 18750 6200 0    50   Input ~ 0
 A10
 Text GLabel 18750 6000 0    50   Input ~ 0
-A3_DRV
+A3_BUF
 Text GLabel 18750 5900 0    50   Input ~ 0
 A11
 Wire Wire Line
@@ -559,9 +559,9 @@ Wire Wire Line
 	7550 12650 7550 12450
 Connection ~ 7550 12450
 Text GLabel 7100 12550 2    39   Input ~ 0
-~IOW~_DRV
+~IOW~_BUF
 Text GLabel 7100 13050 2    39   Input ~ 0
-~IOR~_DRV
+~IOR~_BUF
 NoConn ~ 6600 13650
 NoConn ~ 6600 13550
 NoConn ~ 6600 13350
@@ -1908,22 +1908,22 @@ Wire Wire Line
 	2450 7800 2350 7800
 Text GLabel 3600 7700 2    50   Input ~ 0
 CLK_EXTENDED
-Text GLabel 1350 9550 0    50   Input ~ 0
+Text GLabel 1350 9450 0    50   Input ~ 0
 CLK_EXTENDED
 Wire Wire Line
-	1650 9550 1450 9550
+	1650 9450 1450 9450
 Wire Wire Line
-	1450 9550 1450 10350
+	1450 9450 1450 10250
 Wire Wire Line
-	1450 10350 1650 10350
-Connection ~ 1450 9550
+	1450 10250 1650 10250
+Connection ~ 1450 9450
 Wire Wire Line
-	1450 9550 1350 9550
+	1450 9450 1350 9450
 Text Label 2500 7800 0    50   ~ 0
 ~CLK~_DELAYED
 Text GLabel 13800 10200 0    50   Input ~ 0
 ADSTB
-Text GLabel 2250 9650 2    50   Input ~ 0
+Text GLabel 2550 9550 2    50   Input ~ 0
 DMA_READY_IN
 Text GLabel 21950 7650 0    50   Input ~ 0
 A2_DRAM
@@ -2887,9 +2887,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 1450 15500 1550
 Wire Wire Line
-	3400 9200 3450 9200
-Wire Wire Line
-	1950 10750 1950 10650
+	1950 10750 1950 10550
 Wire Wire Line
 	17800 4400 17700 4400
 Wire Wire Line
@@ -2905,13 +2903,13 @@ Text Label 21850 4400 0    50   ~ 0
 _~RAS~_DRAM
 Connection ~ 19550 1350
 Wire Wire Line
-	5100 9800 5200 9800
+	5100 9700 5200 9700
 Wire Wire Line
-	5200 9800 5200 8750
+	5200 9700 5200 8750
 Wire Wire Line
-	1450 8750 1450 9450
+	1450 8750 1450 9350
 Wire Wire Line
-	1450 9450 1650 9450
+	1450 9350 1650 9350
 NoConn ~ 1300 12750
 NoConn ~ 1300 12650
 NoConn ~ 1300 13150
@@ -2920,7 +2918,6 @@ NoConn ~ 1300 14650
 NoConn ~ 1300 14750
 NoConn ~ 1300 15050
 NoConn ~ 2700 12350
-Connection ~ 3450 9200
 $Comp
 L Custom:41256 U7
 U 1 1 608616E8
@@ -3401,63 +3398,16 @@ Text GLabel 8800 8200 0    50   Input ~ 0
 DMA_READY_IN
 Text GLabel 8800 8100 0    39   Input ~ 0
 ~CS_DMA
-Text GLabel 6450 7150 2    50   Input ~ 0
-DMA_READY_IN
-Text GLabel 6450 7050 2    39   Input ~ 0
-~EOP
-NoConn ~ 6450 6950
-$Comp
-L Device:R_Network07 RP3
-U 1 1 6077B62D
-P 6250 7250
-F 0 "RP3" V 5733 7250 50  0000 C CNN
-F 1 "4K7 Bussed" V 5824 7250 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 6725 7250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6250 7250 50  0001 C CNN
-	1    6250 7250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7350 8500
-Wire Wire Line
-	7350 8500 8800 8500
-Wire Wire Line
-	6700 8600 6950 8600
-Connection ~ 7450 8600
-Wire Wire Line
-	7450 8600 8800 8600
-Wire Wire Line
-	5950 7050 5950 7550
-$Comp
-L power:VCC #PWR0180
-U 1 1 608AB29B
-P 5950 7050
-F 0 "#PWR0180" H 5950 6900 50  0001 C CNN
-F 1 "VCC" H 5965 7223 50  0000 C CNN
-F 2 "" H 5950 7050 50  0001 C CNN
-F 3 "" H 5950 7050 50  0001 C CNN
-	1    5950 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 7550 5950 7550
-Text Label 7100 7550 0    50   ~ 0
-~IOR~_DRV
-Text Label 7100 7450 0    50   ~ 0
-~IOW~_DRV
-Text Label 7100 7350 0    50   ~ 0
-~MEMR~_DRV
-Text Label 7100 7250 0    50   ~ 0
-~MEMW~_DRV
 Text Label 13800 7800 2    50   ~ 0
 ~DMA_REG_W
 Text GLabel 8150 8900 2    50   Input ~ 0
-A0_DRV
+A0_BUF
 Text GLabel 8150 9000 2    50   Input ~ 0
-A1_DRV
+A1_BUF
 Text GLabel 8150 9100 2    50   Input ~ 0
-A2_DRV
+A2_BUF
 Text GLabel 8150 9200 2    50   Input ~ 0
-A3_DRV
+A3_BUF
 Wire Wire Line
 	7750 8900 8150 8900
 Connection ~ 7750 8900
@@ -3470,30 +3420,18 @@ Connection ~ 7950 9100
 Wire Wire Line
 	8150 9200 8050 9200
 Connection ~ 8050 9200
-Text GLabel 6950 8400 1    39   Input ~ 0
-~IOW~_DRV
+Text GLabel 8200 8700 2    39   Input ~ 0
+~IOW~_BUF
 Wire Wire Line
-	6950 8400 6950 8600
-Connection ~ 6950 8600
+	6700 8700 7100 8700
 Wire Wire Line
-	6950 8600 7450 8600
-Wire Wire Line
-	6700 8700 7550 8700
-Wire Wire Line
-	6700 8800 7650 8800
-Text Label 7000 8700 0    50   ~ 0
-~MEMR~_DRV
-Text Label 7000 8800 0    50   ~ 0
-~MEMW~_DRV
-Wire Wire Line
-	6850 8500 7350 8500
-Connection ~ 6850 8500
-Wire Wire Line
-	6700 8500 6850 8500
-Wire Wire Line
-	6850 8400 6850 8500
-Text GLabel 6850 8400 1    39   Input ~ 0
-~IOR~_DRV
+	6700 8800 7250 8800
+Text Label 7550 8400 1    50   ~ 0
+~MEMR~_BUF
+Text Label 7650 8400 1    50   ~ 0
+~MEMW~_BUF
+Text GLabel 8200 8400 2    39   Input ~ 0
+~IOR~_BUF
 Wire Wire Line
 	13350 7700 13800 7700
 Wire Wire Line
@@ -3515,7 +3453,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 9000 7850 9000
 Text Label 13800 7600 2    50   ~ 0
-A0_DRV
+A0_BUF
 Wire Wire Line
 	13350 8200 13350 10300
 Wire Wire Line
@@ -3532,22 +3470,7 @@ Text GLabel 12000 10200 2    39   Input ~ 0
 Wire Wire Line
 	12000 10200 11900 10200
 Text Label 13800 7700 2    50   ~ 0
-A1_DRV
-Wire Wire Line
-	7650 6900 7650 7250
-Wire Wire Line
-	7550 6800 7550 7350
-Wire Wire Line
-	7350 7550 7350 8500
-Wire Wire Line
-	7450 7450 7450 8600
-Wire Wire Line
-	6450 7250 7650 7250
-Connection ~ 7650 7250
-Wire Wire Line
-	6450 7450 7450 7450
-Wire Wire Line
-	6450 7550 7350 7550
+A1_BUF
 Text GLabel 5700 9400 0    39   Input ~ 0
 ~DMA_W
 Wire Wire Line
@@ -3557,13 +3480,6 @@ Wire Wire Line
 Connection ~ 11900 10200
 Wire Wire Line
 	13800 7800 13350 7800
-Wire Wire Line
-	7650 7250 7650 8800
-Wire Wire Line
-	6450 7350 7550 7350
-Connection ~ 7550 7350
-Wire Wire Line
-	7550 7350 7550 8700
 Wire Wire Line
 	17700 4050 17700 4400
 Wire Wire Line
@@ -3725,7 +3641,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 13050 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12750 7900 0    39   Input ~ 0
-~IOW~_DRV
+~IOW~_BUF
 Text Label 12100 7550 0    50   ~ 0
 ~DMA_REG_DECODE
 Text Label 10250 8200 0    50   ~ 0
@@ -3812,11 +3728,11 @@ Wire Wire Line
 Wire Wire Line
 	12650 7700 12750 7700
 Wire Wire Line
-	10200 9000 10600 9000
+	10200 9000 10900 9000
 Wire Wire Line
-	10600 9000 10600 9600
+	10900 9000 10900 9600
 Wire Wire Line
-	10600 9600 11300 9600
+	10900 9600 11300 9600
 Wire Wire Line
 	11200 9000 11300 9000
 Wire Wire Line
@@ -3824,34 +3740,16 @@ Wire Wire Line
 Wire Wire Line
 	11200 8200 11200 9000
 Wire Wire Line
-	4150 9900 4500 9900
-Wire Wire Line
-	3450 9200 3450 9800
-Wire Wire Line
-	3450 9800 3550 9800
+	4200 9800 4500 9800
 Wire Wire Line
 	1450 8750 5200 8750
-Connection ~ 1950 9950
+Connection ~ 1950 9850
 Wire Wire Line
-	2250 10450 3450 10450
-Wire Wire Line
-	3450 10450 3450 10000
-Wire Wire Line
-	3450 10000 3550 10000
-Wire Wire Line
-	1850 10750 1950 10750
-Text GLabel 1850 10750 0    50   Input ~ 0
-IO_OR_MEM_READ
-Wire Wire Line
-	3550 9200 3450 9200
-Text GLabel 3550 9200 2    50   Input ~ 0
-IO_OR_MEM_READ
+	2250 10350 2350 10350
 Wire Wire Line
 	19550 1000 20150 1000
 Text Label 19600 1000 0    50   ~ 0
 ~DRAM_ENABLE
-Text GLabel 10600 9000 2    39   Input ~ 0
-~EOP
 Wire Wire Line
 	20600 8450 21950 8450
 Wire Wire Line
@@ -4081,8 +3979,156 @@ Wire Notes Line
 	700  5850 700  600 
 Wire Notes Line
 	700  600  22800 600 
-Text Label 3700 8750 0    50   ~ 0
+Text Label 3050 8750 0    50   ~ 0
 NOT_SURE_1
-Text Label 2550 10450 0    50   ~ 0
+$Comp
+L Device:R_Network07_Split RP3
+U 1 1 603ADCEC
+P 6800 8250
+F 0 "RP3" V 6800 8150 50  0000 L CNN
+F 1 "4K7 Bussed" H 6900 8500 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6720 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6800 8250 50  0001 C CNN
+	1    6800 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 8500 8150 8400
+Wire Wire Line
+	8150 8400 8200 8400
+Connection ~ 8150 8500
+Wire Wire Line
+	8150 8500 8800 8500
+Wire Wire Line
+	8150 8600 8150 8700
+Wire Wire Line
+	8150 8700 8200 8700
+Connection ~ 8150 8600
+Wire Wire Line
+	8150 8600 8800 8600
+Wire Wire Line
+	6700 8500 6800 8500
+Wire Wire Line
+	6700 8600 6950 8600
+Wire Wire Line
+	6800 8400 6800 8500
+Connection ~ 6800 8500
+$Comp
+L power:VCC #PWR?
+U 1 1 6041DB4F
+P 6800 8100
+F 0 "#PWR?" H 6800 7950 50  0001 C CNN
+F 1 "VCC" H 6815 8273 50  0000 C CNN
+F 2 "" H 6800 8100 50  0001 C CNN
+F 3 "" H 6800 8100 50  0001 C CNN
+	1    6800 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP3
+U 2 1 6041FEB2
+P 6950 8250
+F 0 "RP3" V 6950 8150 50  0000 L CNN
+F 1 "4K7 Bussed" H 7048 8197 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 6870 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6950 8250 50  0001 C CNN
+	2    6950 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP3
+U 3 1 60422729
+P 7100 8250
+F 0 "RP3" V 7100 8150 50  0000 L CNN
+F 1 "4K7 Bussed" H 7198 8197 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7020 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7100 8250 50  0001 C CNN
+	3    7100 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_Split RP3
+U 4 1 60424D39
+P 7250 8250
+F 0 "RP3" V 7250 8150 50  0000 L CNN
+F 1 "4K7 Bussed" H 7348 8197 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 7170 8250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7250 8250 50  0001 C CNN
+	4    7250 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 8400 6950 8600
+Connection ~ 6950 8600
+Wire Wire Line
+	7100 8400 7100 8700
+Connection ~ 7100 8700
+Wire Wire Line
+	7100 8700 7550 8700
+Wire Wire Line
+	7250 8400 7250 8800
+Connection ~ 7250 8800
+Wire Wire Line
+	7250 8800 7650 8800
+Wire Wire Line
+	7650 6900 7650 8800
+Wire Wire Line
+	7550 6800 7550 8700
+Wire Wire Line
+	6800 8500 8150 8500
+Wire Wire Line
+	6950 8600 8150 8600
+Wire Wire Line
+	2350 9700 2350 10350
+Wire Wire Line
+	2350 9700 3600 9700
+Wire Wire Line
+	3500 9900 3600 9900
+Wire Wire Line
+	3500 10750 1950 10750
+Text Label 2300 10750 0    50   ~ 0
+IO_OR_MEM_READ
+Wire Wire Line
+	3500 9900 3500 10250
+Wire Wire Line
+	3400 10250 3500 10250
+Connection ~ 3500 10250
+Wire Wire Line
+	3500 10250 3500 10750
+$Comp
+L Device:R_Network07_Split RP3
+U 5 1 6076830C
+P 2450 9250
+F 0 "RP3" H 2548 9288 50  0000 L CNN
+F 1 "4K7 Bussed" H 2548 9197 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2370 9250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2450 9250 50  0001 C CNN
+	5    2450 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 9550 2450 9550
+Wire Wire Line
+	2450 9550 2450 9400
+Wire Wire Line
+	2550 9550 2450 9550
+Connection ~ 2450 9550
+Text Label 2700 9700 0    50   ~ 0
 NOT_SURE_2
+Text Label 10200 9000 0    50   ~ 0
+~EOP
+$Comp
+L Device:R_Network07_Split RP3
+U 6 1 6084D0A5
+P 10900 8750
+F 0 "RP3" H 10998 8788 50  0000 L CNN
+F 1 "4K7 Bussed" V 10800 8550 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 10820 8750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10900 8750 50  0001 C CNN
+	6    10900 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 8900 10900 9000
+Connection ~ 10900 9000
 $EndSCHEMATC
