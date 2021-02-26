@@ -1,0 +1,7 @@
+This project includes information about to the T512CLK-A1 Upgrade by ATD Inc.
+
+The original board gerbers are by Rob Krenicki who associated the GPL 3 license
+with it. See LICENSE.txt in the "rkrenicki Gerber" folder.
+
+The schematic, other KiCad elements including custom library items, modifications
+to the board layout made here are all released into the public domain.
